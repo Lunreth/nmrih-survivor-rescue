@@ -5,7 +5,8 @@ https://forums.alliedmods.net/showthread.php?t=326659
 
 # CVars
 
-- `sm_survivor_rescue_enable` --> Enable or disable Survivor Rescue
+- `sm_survivor_rescue_enable` (1/0) (Default: 1)
+  - Whether to enable or disable Survivor Rescue plugin
 - `sm_survivor_rescue_debug` --> Debug mode for plugin - Will spam messages in console if set to 1
 - `sm_sr_starting_health` --> Sets the starting health of the random survivor
 - `sm_survivor_rescue_ff` --> 1 = Default (will receive damage when infected or when CVARs dictate) | 0 = Override FF parameters and will not receive any damage from players (not even infected)
