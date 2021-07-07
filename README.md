@@ -20,4 +20,4 @@ https://forums.alliedmods.net/showthread.php?t=326659
 - `sm_survivor_rescue_trail` (1/0) (Default: 1)
   - Using 1 will enable survivor weapon trail
 
-https://imgur.com/gallery/e5wWTwC
+https://i.imgur.com/AvUxi3S.jpeg
