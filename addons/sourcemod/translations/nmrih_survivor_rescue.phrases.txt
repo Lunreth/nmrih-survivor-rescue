@@ -1,0 +1,69 @@
+"Phrases"
+{
+  "survivor_picked"
+  {
+    "#format" "{1:s}"
+    "en"  "{1} is the special survivor! Cooperate together and keep him alive at any cost."
+    "es"  "{1} es el sobreviviente lider! Deben alcanzar el rescate y mantenerlo vivo."
+  }
+  "survivor_private_message"
+  {
+	"en"  "YOU are the special survivor! Reach extraction point without dying or players will lose round."
+	"es"  "¡Has sido elegido como el sobreviviente lider! Debes ser extraído sin morir o todos perderán la ronda."
+  }
+  "survivor_center_message"
+  {
+	"en"  "YOU are the special survivor! Don't die!"
+	"es"  "¡Eres el sobreviviente lider! No debes morir en esta ronda"
+  }
+  "survivor_death"
+  {
+    "#format" "{1:s}"
+    "en"  "{1} is dead! Mission failed!"
+    "es"  "{1} ha muerto! Misión fallida!"
+  }
+  "survivor_extracted"
+  {
+    "#format" "{1:s}"
+    "en"  "{1} successfully extracted! Mission complete, get to the extraction point quickly!"
+    "es"  "¡{1} ha escapado con exito! Misión completada, rescate desbloqueado."
+  }
+  "survivor_hub_complete"
+  {
+	"en"  "Mission complete!"
+	"es"  "¡Misión completada!"
+  }
+  "not_survivor"
+  {
+    "#format" "{1:s}"
+    "en"  "You are NOT the survivor! Bring {1} to the extraction point or you won't be extracted."
+    "es"  "¡NO eres el sobreviviente lider! Escolta a {1} hasta el punto de extracción."
+  }
+  "survivor_ff"
+  {
+    "en"  "Friendly fire disabled for special survivor."
+    "es"  "Fuego amigo desactivado para el sobreviviente."
+  }
+  "survivor_left"
+  {
+    "#format" "{1:s}"
+    "en"  "{1} was the special survivor and left the game! Round must restart to pick new hero."
+    "es"  "¡{1} se ha desconectado siendo el sobreviviente lider! Ronda reiniciada."
+  }
+  "survivor_restart"
+  {
+    "en"  "Round must restart to pick new hero."
+    "es"  "Ronda reiniciada para elegir nuevo lider."
+  }
+  "survivor_all_hud"
+  {
+    "#format" "{1:s}"
+    "en"  "Escort {1} to extraction point"
+    "es"  "Escolta a {1} hasta el rescate"
+  }
+  "survivor_indicator"
+  {
+    "en"  "YOU ARE THE SPECIAL SURVIVOR"
+    "es"  "ERES EL SOBREVIVIENTE LIDER"
+  }
+}
