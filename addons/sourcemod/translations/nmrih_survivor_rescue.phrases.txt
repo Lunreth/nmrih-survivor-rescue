@@ -4,7 +4,7 @@
   {
     "#format" "{1:s}"
     "en"  "{1} is the special survivor! Cooperate together and keep him alive at any cost."
-    "es"  "{1} es el sobreviviente lider! Deben alcanzar el rescate y mantenerlo vivo."
+    "es"  "¡{1} es el sobreviviente lider! Deben alcanzar el rescate y mantenerlo vivo."
   }
   "survivor_private_message"
   {
@@ -20,7 +20,7 @@
   {
     "#format" "{1:s}"
     "en"  "{1} is dead! Mission failed!"
-    "es"  "{1} ha muerto! Misión fallida!"
+    "es"  "¡{1} ha muerto! Misión fallida!"
   }
   "survivor_extracted"
   {
@@ -63,7 +63,7 @@
   }
   "survivor_indicator"
   {
-    "en"  "YOU ARE THE SPECIAL SURVIVOR"
-    "es"  "ERES EL SOBREVIVIENTE LIDER"
+    "en"  "YOU ARE THE V.I.P - DON'T DIE"
+    "es"  "ERES EL V.I.P - NO MUERAS"
   }
 }
