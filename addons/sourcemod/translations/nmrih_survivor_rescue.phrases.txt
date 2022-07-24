@@ -8,8 +8,8 @@
   }
   "survivor_private_message"
   {
-	"en"  "YOU are the special survivor! Reach extraction point without dying or players will lose round."
-	"es"  "¡Has sido elegido como el sobreviviente lider! Debes ser extraído sin morir o todos perderán la ronda."
+	"en"  "YOU are the {gold}special survivor{default}! Reach extraction point {red}without dying{default} or players will lose round."
+	"es"  "¡Has sido elegido como el {gold}sobreviviente lider{default}! Debes ser extraído {red}sin morir{default} o todos perderán la ronda."
   }
   "survivor_center_message"
   {
@@ -28,6 +28,53 @@
     "en"  "{1} successfully extracted! Mission complete, get to the extraction point quickly!"
     "es"  "¡{1} ha escapado con exito! Misión completada, rescate desbloqueado."
   }
+  "survivor_ff"
+  {
+    "en"  "Friendly fire disabled for special survivor."
+    "es"  "Fuego amigo desactivado para el sobreviviente."
+  }
+  "survivor_left"
+  {
+    "#format" "{1:s}"
+    "en"  "{1} was the {gold}special survivor{default} and {red}left the game{default}! Round must {lime}restart{default} to pick new hero."
+    "es"  "¡{1} se ha {red}desconectado{default} siendo el {gold}sobreviviente lider{default}! Ronda debe {lime}reiniciar{default}"
+  }
+  "survivor_restart"
+  {
+    "en"  "Round must restart to pick new hero."
+    "es"  "Ronda reiniciada para elegir nuevo lider."
+  }
+  "command_invalid_dead"
+  {
+    "en"  "You must be {red}alive{default} to use this command!"
+    "es"  "¡Debes estar {red}vivo{default} para usar este comando!"
+  }
+  "command_invalid_after_pick"
+  {
+    "en"  "{red}Invalid command{default} - Use this at {lime}round start{default} before choosing special survivor"
+    "es"  "{red}Comando invalido{default} - Debes realizar esta acción en el {lime}inicio de ronda{default} antes que se elija un VIP"
+  }
+  "command_choice_confirmed"
+  {
+    "en"  "You {lime}volunteer{default} as the next {gold}special survivor{default}! (VIP)"
+    "es"  "¡Te ofreciste como {lime}voluntario{default} para ser el siguiente {gold}VIP{default}!"
+  }
+  "command_choice_deny"
+  {
+    "en"  "You {red}refused{default} to become {gold}VIP{default} survivor"
+    "es"  "{red}Quitaste{default} tu solicitud para convertirte en {gold}sobreviviente VIP{default}"
+  }
+  "survivor_loading_choice"
+  {
+    "en"  "A new {gold}survivor{default} will be picked in {blue}10{default} seconds! \n Say {lime}!leader{default} command to volunteer yourself"
+    "es"  "¡Un nuevo {gold}VIP{default} de ronda será elegido en {blue}10{default} segundos! \n Usar comando {lime}!lider{default} para ofrecerse de voluntario"
+  }
+  "choice_denied"
+  {
+    "en"  "You {red}refused{default} to become {gold}VIP{default} this round!"
+    "es"  "{red}Rechazaste{default} el puesto de {gold}sobreviviente VIP{default} para esta ronda"
+  }
+  // HUD NO COLOR
   "survivor_hub_complete"
   {
 	"en"  "Mission complete!"
@@ -39,22 +86,6 @@
     "en"  "You are NOT the survivor! Bring {1} to the extraction point or you won't be extracted."
     "es"  "¡NO eres el sobreviviente lider! Escolta a {1} hasta el punto de extracción."
   }
-  "survivor_ff"
-  {
-    "en"  "Friendly fire disabled for special survivor."
-    "es"  "Fuego amigo desactivado para el sobreviviente."
-  }
-  "survivor_left"
-  {
-    "#format" "{1:s}"
-    "en"  "{1} was the special survivor and left the game! Round must restart to pick new hero."
-    "es"  "¡{1} se ha desconectado siendo el sobreviviente lider! Ronda reiniciada."
-  }
-  "survivor_restart"
-  {
-    "en"  "Round must restart to pick new hero."
-    "es"  "Ronda reiniciada para elegir nuevo lider."
-  }
   "survivor_all_hud"
   {
     "#format" "{1:s}"
@@ -65,5 +96,21 @@
   {
     "en"  "YOU ARE THE V.I.P - DON'T DIE"
     "es"  "ERES EL V.I.P - NO MUERAS"
+  }
+  // MENU NO COLOR
+  "menu_choice_volunteer"
+  {
+    "en"  "Play as VIP special survivor: \n (Yes/No)"
+    "es"  "Jugar como sobreviviente: \n (Si/No)"
+  }
+  "voting_yes"
+  {
+    "en"  "Yes"
+    "es"  "Acepto ser VIP"
+  }
+  "voting_no"
+  {
+    "en"  "No"
+    "es"  "No quiero ser VIP"
   }
 }
